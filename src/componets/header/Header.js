@@ -3,7 +3,7 @@ import './style.scss'
 
 const Header = () => {
     return (
-        <header>
+        <header data-test="headerComponent">
             <p className="wrap">Header</p>
         </header>
     );
