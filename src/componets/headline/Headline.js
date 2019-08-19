@@ -10,7 +10,7 @@ import './style.scss'
     render() {
         const {header,desc} = this.props;
         if(!header) {
-            return null
+            return null;
         }
         return (
             <div className="headline" data-test="headlineWrapper">
