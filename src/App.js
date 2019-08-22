@@ -1,9 +1,11 @@
 import React from 'react';
 import  Header from './componets/header/index'
 import './app.scss'
-import Headline from './componets/headline/index'
+import Headline from './componets/headline/index';
+import { connect } from 'react-redux';
 
-function App() {
+function App(props) {
+  console.log(props.user);
   return (
     <div className="App">
       <Header />
@@ -14,4 +16,11 @@ function App() {
   );
 }
 
-export default App;
+const mapsStateToProps = (state) => {
+    const { user }  = state;
+    return {
+      user
+    }
+}
+
+export default connect(mapsStateToProps)(App);

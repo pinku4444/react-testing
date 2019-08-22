@@ -45,7 +45,7 @@ describe('Headline Component', () => {
 
         it('component should render',() => {
             const component = findByTestAttr(wrapper,"headlineWrapper");
-            expect(component.length).toBe(5)
+            expect(component.length).toBe(1)
         })
 
         it('header should render',() => {

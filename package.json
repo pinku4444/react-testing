@@ -4,11 +4,13 @@
   "private": true,
   "dependencies": {
     "check-prop-types": "^1.1.2",
-    "husky": "^3.0.4",
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-redux": "^7.1.0",
+    "react-scripts": "3.1.1",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,7 +41,9 @@
   "devDependencies": {
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
+    "husky": "^4.0.0-beta.1",
     "jest": "24.8.0",
-    "jest-enzyme": "^7.1.0"
+    "jest-enzyme": "^7.1.0",
+    "redux-devtools": "^3.5.0"
   }
 }
